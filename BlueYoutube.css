@@ -11,7 +11,8 @@
 .ytp-cairo-refresh-signature-moments .ytp-play-progress,
 #progress.ytd-thumbnail-overlay-resume-playback-renderer,
 .YtProgressBarLineProgressBarPlayedRefresh, 
-.YtProgressBarPlayheadProgressBarPlayheadDot {
+.YtProgressBarPlayheadProgressBarPlayheadDot,
+.yt-spec-avatar-shape--cairo-refresh.yt-spec-avatar-shape--live-ring::after{
     background: linear-gradient(-45deg, var(--color), var(--color2)) !important;
 }
 
@@ -33,8 +34,11 @@ path[fill='#f00'],
 path[fill='#F00'],
 path[fill='red'],
 path[fill="#FF0033"],
+path[fill="#f03"],
+circle[fill="#FF0033"],
+circle[fill="#f03"],
 circle[fill='red'],
-circle[fill='#FF0000'] {
+circle[fill='#FF0000']{
     fill: var(--color) !important;
 }
 
@@ -59,7 +63,9 @@ yt-copy-link-renderer[renderer-style='copy-link-renderer-style-settings'],
 .ytp-settings-button.ytp-hd-quality-badge:after,
 .ytp-menuitem[aria-checked='true'] .ytp-menuitem-toggle-checkbox,
 .yt-spec-icon-badge-shape--type-notification .yt-spec-icon-badge-shape__badge,
-#newness-dot.ytd-guide-entry-renderer {
+#newness-dot.ytd-guide-entry-renderer ,
+.yt-spec-avatar-shape__live-badge,
+.badge-style-type-live-now-alternate.ytd-badge-supported-renderer{
     background-color: var(--color) !important;
 }
 
