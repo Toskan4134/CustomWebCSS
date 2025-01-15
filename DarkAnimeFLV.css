@@ -1,0 +1,111 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www3.animeflv.net/assets/animeflv/img/bgb.jpg) rgba(0, 0, 0, 0.5);
+}
+
+h1, h2, h3, .Title, .WdgtCn .Title, .Emision a, .ListCaps span, .ListAnmRel>li>a {
+  color: white !important;
+}
+
+.Emision {
+  background-color: #3b4248;
+}
+
+.Emision .Top {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+  color: white !important;
+}
+
+.Image {
+  background-color: #3b4248 !important;
+}
+
+.Brdcrmb a {
+  color: #919191 !important;
+}
+
+.WdgtCn {
+  background-color: #3b4248 !important;
+}
+
+.NvCnAnm a, .NvCnAnm span, .multiselect, .multiselect-container, .multiselect-container a {
+  background-color: #3b4248 !important;
+  color: white !important;
+}
+
+.multiselect-container::before, .DpdwCnt.TtCn::before {
+  border-bottom: 5px solid #3b4248 !important;
+}
+
+.Main .filters .btn-group.open>button, .Main .filters .btn-group button:focus, .Main .filters .btn-group button:hover {
+  background-color: #25292d !important;
+  color: white !important;
+}
+
+.filters .multiselect-container>li:not(.active)>a>label:before {
+  color: #ababab99 !important;
+}
+
+.CpCnA .active a, .NvCnAnm .active a {
+  background-color: #01bcf3 !important;
+}
+
+.ListCaps>li .Stts:after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.BtnNw:not(.Dwnd) {
+  background-color: #3b4248 !important;
+  color: white;
+}
+
+.WdgtCn .Description, .ListCaps p, .WdgtCn .ListAnmRel {
+  color: #bbb;
+}
+
+.CVst:hover, .CVst.fa-eye-slash {
+  color: #14bbf0 !important;
+}
+
+.Clgt:hover {
+  color: #ffff00 !important;
+}
+
+.WdgtCn:has(#disqus_thread), .WdgtCn:has(#Kudasai), .CpCnC, .ShrCnB, .Xpnd, .lvbx {
+  display: none !important;
+}
+
+#XpndCn {
+  padding: 0px;
+}
+
+.DpdwCnt.TtCn {
+  background-color: #3b4248 !important;
+}
+
+.ListUser a {
+  color: white !important;
+}
+
+.ListUser a:not(.LogOut):hover {
+  color: #01bcf3 !important;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.ListUser li {
+  border: none !important;
+}
+
+.CapiTcn:before {
+    height: 400px;
+}
+
+@media (min-width: 766px) {
+  .CapiTcn:before {
+    height: 560px;
+  }
+}
+
+html {
+  content: "By Toskan4134";
+}
