@@ -102,7 +102,7 @@ h1, h2, h3, .Title, .WdgtCn .Title, .Emision a, .ListCaps span, .ListAnmRel>li>a
 
 @media (min-width: 766px) {
   .CapiTcn:before {
-    height: 560px;
+    height: 590px;
   }
 }
 
