@@ -5,3 +5,4 @@ You can modify your website's style with custom css using different css modifier
 ## Current Custom Styles
 - **[Blue Youtube](./BlueYoutube.css)**: Youtube style modification that changes red color to blue (You can change blue to any other color you want)
 - **[Dark Anime FLV](./DarkAnimeFLV.css)**: Anime FLV dark style that removes in-page ads
+- **[Dark Heraldo](./DarkHeraldo.css)**: Heraldo dark style that improves a UX a bit
